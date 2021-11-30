@@ -6,6 +6,6 @@ services:
   exercises:
     build: .
     volumes:
-      - .:/exercises-typescript
+      - .:/exercises-prolog
     command: make check
 
