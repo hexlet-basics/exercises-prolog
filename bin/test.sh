@@ -1,0 +1,1 @@
+swipl -g run_tests -t halt `pwd`/main.plt 2>&1

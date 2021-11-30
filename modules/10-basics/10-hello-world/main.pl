@@ -1,0 +1,2 @@
+greeting:-
+write('Hello, World!').
