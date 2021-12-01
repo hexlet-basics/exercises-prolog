@@ -1,11 +1,8 @@
 ---
 
-version: '3.7'
+version: '3'
 
 services:
   exercises:
-    build: .
-    volumes:
-      - .:/exercises-prolog
+    image: hexletbasics/exercises-prolog:cached
     command: make check
-
