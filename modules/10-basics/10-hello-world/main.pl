@@ -1,2 +1,2 @@
-greeting:-
+:-
 write('Hello, World!').
