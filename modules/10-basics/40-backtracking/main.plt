@@ -7,12 +7,13 @@ user:message_hook(Term, error, _Lines) :-
 	retract(error_happened('OK')),
     assertz(error_happened(error)),
     fail.
-    
-:- [main].
-  
-:- begin_tests(test).
 
-test(002, true(X == 'OK')) :-
+:- [main].
+
+:- begin_tests(backtracking).
+
+test(040, Output == 'a\ntrue ;\nbc\ntrue ;\n') :-
+    with_output_to(atom(Output), forall(call(writer), (nl, write('true ;'), nl))),
     error_happened(X).
 
-:- end_tests(test).
+:- end_tests(backtracking).
