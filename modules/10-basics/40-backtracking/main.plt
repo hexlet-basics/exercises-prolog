@@ -7,8 +7,8 @@ user:message_hook(Term, error, _Lines) :-
 	retract(error_happened('OK')),
     assertz(error_happened(error)),
     fail.
-
-:- [main].
+:- include(main).
+:- forall(call(writer), (nl, write('true ;'), nl)).
 
 :- begin_tests(backtracking).
 
