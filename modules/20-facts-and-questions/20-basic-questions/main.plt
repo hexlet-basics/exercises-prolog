@@ -30,5 +30,4 @@ test(023, Actual == 'Маша') :-
 test(024, Actual == ['Анатолий']) :-
     find_all_dmitry_sons(Actual).
 
-
 :- end_tests(questions).

@@ -1,2 +1,4 @@
 writer :-
-	(write('Hello, ') ; write('World!')), nl, fail.
+	% BEGIN
+	write('Hello, ') ; write('World!').
+	% END

@@ -69,9 +69,9 @@ instructions: |
   Заполните пропуски во всех в блоках `% BEGIN % END`. В качестве переменных используйте обозначение из заголовков предикатов – `X`.
 
 tips:
-  – |
+  - |
     [Логическое программирование на Prolog](https://habr.com/ru/post/552318/)
-  – |
+  - |
     [SWI–Prolog](https://www.swi–prolog.org/)
-  – |
+  - |
     [SWISH](https://swish.swi–prolog.org/)

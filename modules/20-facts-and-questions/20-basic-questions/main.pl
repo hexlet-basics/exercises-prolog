@@ -33,5 +33,3 @@ all_dmitriy_sons(X) :-
     all_dmitriy_children(X),
     male(X).
     % END
-
-
