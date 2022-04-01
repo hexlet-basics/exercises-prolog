@@ -1,8 +1,7 @@
 FROM hexletbasics/base-image:latest
 WORKDIR /exercises-prolog
 
-RUN apt update
-RUN yes | apt-get install swi-prolog
+RUN apt-get update && apt-get install -y swi-prolog
 
 COPY . .
 
