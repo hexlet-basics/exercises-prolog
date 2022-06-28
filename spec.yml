@@ -7,4 +7,4 @@ language:
   exercise_test_filename: main.plt
   learn_as: first_language
   progress: in_development
-  name: Progol
+  name: Prolog
