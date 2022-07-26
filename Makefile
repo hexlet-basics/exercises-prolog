@@ -19,7 +19,7 @@ compose-bash:
 
 compose-test:
 	docker-compose run exercises make test
-	
+
 compose-description-lint:
 	docker-compose run exercises make description-lint
 
