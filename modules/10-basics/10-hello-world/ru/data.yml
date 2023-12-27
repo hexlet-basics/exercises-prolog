@@ -1,0 +1,9 @@
+name: Привет, Мир!
+tips:
+  - >
+    Если в редакторе есть запись `// BEGIN` и `// END`, то код нужно писать
+    между этими строчками.
+  - |
+    [Что такое компилятор?](https://guides.hexlet.io/compiler/)
+  - |
+    [SWI–Prolog](https://www.swi-prolog.org/)
